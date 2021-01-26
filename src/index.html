@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>🐰 | big rabbit stuff</title>
+
+<audio-context>
+	<gain-node gain="0.3">
+		<oscillator-node id="carrier" frequency="55.0" type="sawtooth">
+		</oscillator-node>
+	</gain-node>
+	<gain-node gain="20" connect="carrier->frequency">
+		<oscillator-node id="m1" type="sine" frequency="55.2"> </oscillator-node>
+	</gain-node>
+	<gain-node gain="40" connect="m1->frequency">
+		<oscillator-node id="m2" type="sine" frequency="0.09"> </oscillator-node>
+	</gain-node>
+</audio-context>
+
+<!-- <adsr-envelope attack="0.1" decay="0.5" sustain="0.8" release="1.2">
+			<oscillator-node name="carrier" frequency="440.0" type="sawtooth">
+			</oscillator-node>
+		</adsr-envelope> -->
+<script module src="./index.ts"></script>
