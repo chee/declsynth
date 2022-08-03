@@ -7,7 +7,7 @@
     "start": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
-  "author": "chee <chee@snoot.club>",
+  "author": "chee <yay@chee.party>",
   "license": "GPL-3.0+",
   "devDependencies": {
     "@parcel/config-default": "^2.0.0-beta.1",
