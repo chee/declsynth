@@ -1,6 +1,6 @@
 {
   "name": "audiogrid",
-  "version": "0.0.0-prealpha.0",
+  "version": "0.0.0",
   "description": "GRID",
   "module": "dist/grid.js",
   "scripts": {
